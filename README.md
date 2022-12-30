@@ -16,12 +16,12 @@ So merging the dataset was by using the merge() function on some arguments had c
 
 Merging was conducted on the flight table because it is acting as the main dataset for being holding the most attributes and also for the name of the datasets package as the 2015 Flight Delays and Cancellations.
 
-#### airlines dataset:
+### airlines dataset:
 
   From the airlines dataset the attribute AIRLINE was merged into the flights dataset matching the IATA_CODE in the airlines dataset and the AIRLINE attribute in flights dataset. This attribute is showing the name of the airline the flight is related.
   
   
-#### airports dataset: -
+### airports dataset: -
 
 These attributes were merged into the flights dataset:
   - AIRPORT  -  which is the name of the airport
